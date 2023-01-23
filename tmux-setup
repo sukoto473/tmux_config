@@ -2,5 +2,6 @@
 sudo apt -y install tmux
 sudo apt -y install xclip
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-git clone https://github.com/sukoto473/tmux_config/blob/main/.tmux.conf ~
+cd ~
+git clone https://github.com/sukoto473/tmux_config/blob/main/.tmux.conf
 tmux
